@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>If Else Demo</h1>
+
+    <script>
+        let permLevel = Number(prompt("To access this data you need a permission level of at least 3, please enter your permission level (1-5):  "));
+        if (permLevel >= 3 && permLevel < 5) {
+            console.log("Access Granted");
+        } else if (permLevel < 3 && permLevel > 0) {
+            console.log("Access Denied");
+        } else {
+            console.log("Invalid input");
+        }
+
+    </script>
+</body>
+
+</html>
